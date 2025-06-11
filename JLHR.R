@@ -16,3 +16,6 @@ blogdown::serve_site()
 # install.packages("usethis")
 usethis::browse_github()
 
+# Review the connection to Netlify
+blogdown::check_netlify()
+

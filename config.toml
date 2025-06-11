@@ -1,4 +1,4 @@
-baseURL = "https://www.example.org/"
+baseURL = "https://drjoseluisheram.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Personal web Dr. Jose Luis Hernandez-Ramirez"
