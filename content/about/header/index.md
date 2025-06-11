@@ -7,6 +7,6 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-I'm economist and crime scientist with more than 10 years of experience ...
+I'm a professional highly analytical and results-driven with 10+ years' experience leveraging geospatial intelligence to address complex challenges in public security and urban environments. PhD-trained in Security and Crime Science from UCL, with expertise in crime analysis, threat intelligence, and strategic planning.
 
-The page you are reading is based on a markdown file- look in `content/about/` to edit. There, look inside the `header`, `main`, and `sidebar` folders to get started building your own "about" page.
+I am passionate about intelligence-led policing, crime network analysis, and applying geospatial intelligence to tackle fraud, organised crime, and emerging threats, and I am also driven to use data-driven approaches to inform urban planning and development for safer cities.
