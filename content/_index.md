@@ -2,19 +2,15 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: Sit down, relax, and get to know Hugo Apéro. Built on top of Blogophonic,
-  we wanted to create a polished Hugo theme with the right features for a true personal
-  website. We set out to create a theme that is a pleasure to learn, and one that
-  helps others get to know you better. It is more than a blog, with flexible custom
-  layouts that help you introduce yourself online.
+description: I'm a professional highly analytical and results-driven with 10+ years' experience leveraging geospatial intelligence to address complex challenges in public security and urban environments. PhD-trained in Security and Crime Science from UCL, with expertise in crime analysis, threat intelligence, and strategic planning.
 image_left: true
 images:
 - img/revoir.jpg
 show_action_link: true
 show_social_links: true
-subtitle: A Hugo theme you'll want to hang out with
+subtitle: Ph.D. in Security and Crime Science at UCL
 text_align_left: false
-title: Hugo Apéro
+title: Dr. Jose Luis Hernandez-Ramirez
 type: home
 ---
 

@@ -17,5 +17,5 @@ blogdown::serve_site()
 usethis::browse_github()
 
 # Review the connection to Netlify
-blogdown::check_netlify()
+blogdown::check_netlify() 
 
