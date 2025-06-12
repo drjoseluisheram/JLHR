@@ -6,8 +6,8 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-I am a professional highly analytical and results-driven with more than 10 years of experience leveraging geospatial intelligence to address complex challenges in public security and urban environments. 
-PhD-trained in Security and Crime Science from UCL, with expertise in crime analysis, threat intelligence, and strategic planning.
+  I am a professional highly analytical and results-driven with more than 10 years of experience leveraging geospatial intelligence to address complex challenges in public security and urban environments. 
+  PhD-trained in Security and Crime Science from UCL, with expertise in crime analysis, threat intelligence, and strategic planning.
 ---
 #I hope this theme helps you create your own virtual apéro. A place where you and your site's visitors enjoy spending time, and one that helps folks get to know you better.
 show_outro: true
