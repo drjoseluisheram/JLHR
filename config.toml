@@ -129,7 +129,7 @@ enableEmoji = true
    #   url       = "http://orcid.org/0000-0002-8082-1890"
   [[params.social]]
       icon      = "linkedin" # icon name without the 'fa-'
-      icon_pack = "fab"
+      icon_pack = "fa"
       url       = "https://www.linkedin.com/in/jose-luis-hernandez-ramirez"
 
 [taxonomies]
