@@ -6,7 +6,7 @@ categories:
 - Spanish
 date: "2025-06-19"
 draft: false
-excerpt: This is a proof.
+excerpt: Security in Mexico.
 featured: true
 layout: single-sidebar
 links:
@@ -41,7 +41,7 @@ Regarding the federal administration, various perspectives have analysed the pot
 On countless occasions, the president and his supporters have used INEGI data to assert that the Armed Forces are the institutions with the highest public perception and trust. While it is true that the Navy and Army enjoy the most public confidence, it's also worth noting that they have lost some percentage points compared to previous years. According to the 2022 National Survey of Victimisation and Perception of Public Security (ENVIPE), both the Navy and the Army saw a decline in public trust compared to the previous year, and even an increase in the perception of corruption.
 
 The ENVIPE survey has established itself as a reliable source of information for proposing and developing informed public policy. One of the most significant findings in this latest release highlights the public's primary concerns. These were as follows:
-{{< figure src="css-grid-cover.png" alt="Traditional right sidebar layout" caption="A visual example of the traditional right sidebar layout" >}}
+{{< figure src="quenos.png" alt="Traditional right sidebar layout" caption="Source: ENVIPE, INEGI 2020" >}}
 
 Unsurprisingly, insecurity is the issue that troubles Mexicans the most. Sixty-one out of every 100 Mexicans over 18 state that this is what causes them the greatest unease and directly impacts their quality of life. Following this, rising prices (at 34%) and unemployment (at 32%) were the most frequently mentioned concerns. If these are the public's primary worries, I ask again: are the three levels of government implementing effective public policies to mitigate these concerns?
 
