@@ -44,7 +44,7 @@ enableEmoji = true
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "JoseLuis_Hndz"
   
   # use a built-in color theme
   # one of: earth / forest / grayscale / magma / paper / peach / plum /
@@ -106,19 +106,19 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "https://github.com/drjoseluisheram"
  # [[params.social]]
   #    icon      = "bluesky" # icon name without the 'fa-'
    #   icon_pack = "fab"
     #  url       = "https://bsky.app/"
-  [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
+ # [[params.social]]
+  #    icon      = "instagram" # icon name without the 'fa-'
+   #   icon_pack = "fab"
+    #  url       = "https://www.instagram.com/explore/tags/apero/"
   [[params.social]]
       icon      = "x-twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
+      url       = "https://twitter.com/JoseLuis_Hndz/"
 #  [[params.social]]
  #     icon      = "impactstory" # icon name without the 'fa-'
   #    icon_pack = "ai"
@@ -128,9 +128,9 @@ enableEmoji = true
   #    icon_pack = "ai"
    #   url       = "http://orcid.org/0000-0002-8082-1890"
   [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
+      icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fas"
-      url       = "/blog/index.xml"
+      url       = "https://www.linkedin.com/in/jose-luis-hernandez-ramirez"
 
 [taxonomies]
   category = "categories"
@@ -164,11 +164,11 @@ enableEmoji = true
     title = "A collection"
     url = "/collection/"
     weight = 5
-  [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 6
+  #[[menu.header]]
+   # name = "Elements"
+    #title = "Element Page"
+    #url = "/elements/"
+    #weight = 6
     
   # Configure footer  
   [[menu.footer]]
