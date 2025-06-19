@@ -7,4 +7,4 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-Hi, my name is Dr. José Luis Hernández-Ramírez. I'm a professional highly analytical and results-driven with 10+ years' experience leveraging geospatial intelligence to address complex challenges in public security and urban environments. PhD-trained in Security and Crime Science from UCL, with expertise in crime analysis, threat intelligence, and strategic planning.
+Welcome to my website, a digital space thoughtfully curated into three distinct sections designed to share my insights and work. Begin your exploration in the Blog, where you'll find a collection of my past writings alongside fresh, new pieces on various topics. Next, delve into Projects, a dedicated area showcasing my passion for data through compelling visualizations and interactive dashboards built around subjects that genuinely interest me. Finally, visit Talks, where you can watch videos of presentations I've delivered, offering a glimpse into my past speaking engagements.
