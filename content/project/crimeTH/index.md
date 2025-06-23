@@ -38,45 +38,6 @@ Since I began my mapping journey, I've said countless times the phrase '...there
 
 Once you address the potential limitations of a static map, exploring an interactive approach can significantly enhance comprehension of the spatial dynamics of your variables (in this case, criminal activity - theft against the person). This makes it far easier to pinpoint critical hotspots, identify risk factors related to these criminal activities, discern subtle trends, and reveal patterns that traditional static formats simply cannot convey.
 
-<div id="crimeMap" style="height: 500px; width: 100%;"></div>
-
-{{< rawhtml >}}
-<script>
-    // Initialize the map
-    var map = L.map('crimeMap').setView([19.4326, -99.1332], 12); // Example: Mexico City lat/lng, zoom level
-
-    // Add a tile layer (OpenStreetMap)
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    // Fetch and add GeoJSON data
-    fetch('/data/your_map_data.geojson') // Path to your GeoJSON file
-        .then(response => response.json())
-        .then(data => {
-            L.geoJson(data, {
-                // Optional: Style your GeoJSON features
-                style: function(feature) {
-                    return {
-                        color: "#ff7800",
-                        weight: 2,
-                        opacity: 0.85
-                    };
-                },
-                // Optional: Add popups to features
-                onEachFeature: function(feature, layer) {
-                    if (feature.properties && feature.properties.name) {
-                        layer.bindPopup(feature.properties.name + '<br>' + (feature.properties.crime_type || ''));
-                    }
-                }
-            }).addTo(map);
-        })
-        .catch(error => console.error('Error loading GeoJSON:', error));
-
-</script>
-{{< /rawhtml >}}
-
-
 {{< figure src="css-grid-cover.png" alt="Traditional right sidebar layout" caption="A visual example of the traditional right sidebar layout" >}}
 
 ---
