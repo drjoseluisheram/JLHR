@@ -24,7 +24,7 @@ sidebar:
   tags_link: true
   text_link_label: Subscribe via RSS
   text_link_url: /index.xml
-  title: A Sidebar for Your Thoughts
+  title: About this Blog
 thumbnail_left: true
 title: A Blog with a data-driven twist.
 ---
