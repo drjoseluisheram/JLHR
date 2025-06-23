@@ -36,13 +36,16 @@ title: Crime activity-interactive map
 
 Since I began my mapping journey, I've said countless times the phrase '...there's got to be a better way to explain this phenomenon.' While a choropleth static map often serves as a good starting point for spatial analysis, this type of static map doesn't always fully convey the complete analysis of your variables of interest. 
 
-Once you address the potential limitations of a static map, exploring an interactive approach can significantly enhance comprehension of the spatial dynamics of your variables (in this case, criminal activity - theft against the person). This makes it far easier to pinpoint critical hotspots, identify risk factors related to these criminal activities, discern subtle trends, and reveal patterns that traditional static formats simply cannot convey.
+For instance, the following map shows the theft against person in London Borough of Tower Hamlets (LBTH), as you can observe on the map, there are specific wards that concentrate the most criminal activities. However, this map lacks to show certain conditions or risk factors that can be related to this criminal activity.
 
-{{< figure src="css-grid-cover.png" alt="Traditional right sidebar layout" caption="A visual example of the traditional right sidebar layout" >}}
+{{< figure src="crimeth.png" alt="Traditional right sidebar layout" caption="A chorophlet map of crime against the person in LBTH" >}}
+
+Once you address the potential limitations of a static map, exploring an interactive approach can significantly enhance comprehension of the spatial dynamics of your variables (in this case, criminal activity - theft against the person). This makes it far easier to pinpoint critical hotspots, identify risk factors related to these criminal activities, discern subtle trends, and reveal patterns that traditional static formats simply cannot convey. In the next section, I delve into a software to create interactive maps and how can help us to better analyse our spatial patterns.
+
 
 ---
 
-### <dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD</dfn>
+### <dfn title="Interactive maps using leaflet.">Interactive maps using leaflet</dfn>
 
 A proper grid is what we always wanted, no ... _needed_ to build websites with a solid, unbreakable structure. And that's why I used it in this theme. I call this feature a "scaffold" because none of the _content_ is laid out on this grid. Only the main _structure_: consisting of the `header`, `footer`, `main`, `aside`, and `footer`. As you can tell by this quote from the [W3C](https://www.w3.org/TR/css-grid-1/) on the candidate recommendation itself, Grid is the perfect tool for the job:
 
