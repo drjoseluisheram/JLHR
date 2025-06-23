@@ -1,25 +1,23 @@
 ---
-author: Eric Anderson
+author: Dr. Jose Luis Hernandez-Ramirez
 categories:
-- Theme Features
-- R
-- package
-date: "2019-07-02"
+- Datavis
+- Leaflet
+- Maps
+date: "2025-06-23"
 draft: false
-excerpt: Grid is the very first CSS module created specifically to solve the layout
-  problems we’ve all been hacking our way around for as long as we’ve been making
-  websites.
+excerpt: An interactive visualisation about theft against the persons in London Borough of Tower Hamlets in July 2024.
 featured: true
 layout: single-sidebar
 links:
 - icon: door-open
   icon_pack: fas
   name: website
-  url: https://allisonhorst.github.io/palmerpenguins/
+  url: https://drjoseluisheram.github.io/leaflet-interactive-crime/
 - icon: github
   icon_pack: fab
   name: code
-  url: https://github.com/allisonhorst/palmerpenguins/
+  url: https://github.com/drjoseluisheram/leaflet-interactive-crime/blob/main/LBTH_wardtheftperson0724-Octoberproof.html
 - icon: newspaper
   icon_pack: far
   name: Blog post
@@ -27,18 +25,57 @@ links:
 subtitle: ""
 tags:
 - hugo-site
-title: Palmer Penguins
+title: Crime activity-interactive map
 ---
 
-### “Grid is the very first CSS module created specifically to solve the layout problems we've all been hacking our way around for as long as we've been making websites.”
+### “Static maps display information; interactive maps invite discovery. They empower users to delve into specific areas, retrieving detailed insights on demand—be it the type of crime, time of day, or resolution status.”
 
-*— [Chris House, A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)* [^1]
+*— [You can check more info about this map in my personal Github](https://github.com/drjoseluisheram/leaflet-interactive-crime)* [^1]
 
 ---
 
-Since I began building websites in Y2K, I've lost count how many times the phrase "...there's got to be a better way to do this" has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid `TABLE`.
+Since I began my mapping journey, I've said countless times the phrase '...there's got to be a better way to explain this phenomenon.' While a choropleth static map often serves as a good starting point for spatial analysis, this type of static map doesn't always fully convey the complete analysis of your variables of interest. 
 
-Well, technology sure has come a long way since slicing up images to match the table-based layout that was just created in Dreamweaver. You'd be surprised (or maybe you wouldn't) how challenging the standard header, content, sidebar, footer layout could be to actually get right.
+Once you address the potential limitations of a static map, exploring an interactive approach can significantly enhance comprehension of the spatial dynamics of your variables (in this case, criminal activity - theft against the person). This makes it far easier to pinpoint critical hotspots, identify risk factors related to these criminal activities, discern subtle trends, and reveal patterns that traditional static formats simply cannot convey.
+
+<div id="crimeMap" style="height: 500px; width: 100%;"></div>
+
+{{< rawhtml >}}
+<script>
+    // Initialize the map
+    var map = L.map('crimeMap').setView([19.4326, -99.1332], 12); // Example: Mexico City lat/lng, zoom level
+
+    // Add a tile layer (OpenStreetMap)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Fetch and add GeoJSON data
+    fetch('/data/your_map_data.geojson') // Path to your GeoJSON file
+        .then(response => response.json())
+        .then(data => {
+            L.geoJson(data, {
+                // Optional: Style your GeoJSON features
+                style: function(feature) {
+                    return {
+                        color: "#ff7800",
+                        weight: 2,
+                        opacity: 0.85
+                    };
+                },
+                // Optional: Add popups to features
+                onEachFeature: function(feature, layer) {
+                    if (feature.properties && feature.properties.name) {
+                        layer.bindPopup(feature.properties.name + '<br>' + (feature.properties.crime_type || ''));
+                    }
+                }
+            }).addTo(map);
+        })
+        .catch(error => console.error('Error loading GeoJSON:', error));
+
+</script>
+{{< /rawhtml >}}
+
 
 {{< figure src="css-grid-cover.png" alt="Traditional right sidebar layout" caption="A visual example of the traditional right sidebar layout" >}}
 
