@@ -47,9 +47,12 @@ Once you address the potential limitations of a static map, exploring an interac
 
 ### <dfn title="Interactive maps using leaflet.">Interactive maps using leaflet</dfn>
 
-As mentioned above, an interactive map can help you to enhace the identification of specific relations within your spatial analysis. _Interact_ with a map could be challenging, however, there are some applications that help us to easily develop those interactions. For instance, to create the maps you are seeing in this post, I used [Leaflet](https://leafletjs.com/), it is an open-source JavaScript library specifically designed for creating mobile-friendly interactive maps. `leaflet` utility is further enhanced by its user-friendly and well-documented API, making map development accessible even to beginners, while its open-source nature fosters continuous improvement and a rich ecosystem of plugins for extensive customisation.  
+As mentioned above, an interactive map can help you to enhace the identification of specific relations within your spatial analysis. _Interact_ with a map could be challenging, however, there are some applications that help us to easily develop those interactions. For instance, to create the maps you are seeing in this post, I used [Leaflet](https://leafletjs.com/), it is an open-source JavaScript library specifically designed for creating mobile-friendly interactive maps. `leaflet` utility is further enhanced by its user-friendly and well-documented API, making map development accessible even to beginners, while its open-source nature fosters continuous improvement and a rich ecosystem of plugins for extensive customisation.
 
-A proper grid is what we always wanted, no ... _needed_ to build websites with a solid, unbreakable structure. And that's why I used it in this theme. I call this feature a "scaffold" because none of the _content_ is laid out on this grid. Only the main _structure_: consisting of the `header`, `footer`, `main`, `aside`, and `footer`. As you can tell by this quote from the [W3C](https://www.w3.org/TR/css-grid-1/) on the candidate recommendation itself, Grid is the perfect tool for the job:
+The upcoming _Interactive Choropleth Map_ was developed following this [Leaflet-tutorial](https://leafletjs.com/examples/choropleth/).
+
+<iframe src="/data/LBTH_wardtheftperson0724.html" width="100%" height="600" style="border:none;"></iframe>
+
 
 > ##### CSS Grid Layout Module
 >
