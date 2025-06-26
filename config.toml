@@ -160,9 +160,9 @@ enableEmoji = true
     url = "/talk/"
     weight = 4
   [[menu.header]]
-    name = "A collection"
-    title = "A collection"
-    url = "/collection/"
+    name = "Thesis"
+    title = "Revisiting my thesis"
+    url = "/phdthesis/"
     weight = 5
   #[[menu.header]]
    # name = "Elements"
