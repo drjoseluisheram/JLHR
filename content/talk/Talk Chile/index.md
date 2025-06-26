@@ -21,7 +21,7 @@ links:
 - icon: github
   icon_pack: fab
   name: code
-  url: https://github.com/apreshill/bakeoff
+  url: https://drjoseluisheram.github.io
 location: London, UK - Santiago, Chile
 show_post_time: false
 subtitle: Talk in Spanish
