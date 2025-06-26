@@ -47,29 +47,27 @@ Once you address the potential limitations of a static map, exploring an interac
 
 ### <dfn title="Interactive maps using leaflet.">Interactive maps using leaflet</dfn>
 
-As mentioned above, an interactive map can help you to enhace the identification of specific relations within your spatial analysis. _Interact_ with a map could be challenging, however, there are some applications that help us to easily develop those interactions. For instance, to create the maps you are seeing in this post, I used [Leaflet](https://leafletjs.com/), it is an open-source JavaScript library specifically designed for creating mobile-friendly interactive maps. `leaflet` utility is further enhanced by its user-friendly and well-documented API, making map development accessible even to beginners, while its open-source nature fosters continuous improvement and a rich ecosystem of plugins for extensive customisation.
+As mentioned above, an interactive map can help you to enhace the identification of specific relations within your spatial analysis. _Interact_ with a map could be challenging, however, there are some applications that help us to easily develop those interactions. 
+
+For instance, to create the map you are seeing in this post, I used [Leaflet](https://leafletjs.com/).  This app is an open-source JavaScript library specifically designed for creating mobile-friendly interactive maps. `leaflet` utility is further enhanced by its user-friendly and well-documented API, making map development accessible even to beginners, while its open-source nature fosters continuous improvement and a rich ecosystem of plugins for extensive customisation.
 
 The upcoming _Interactive Choropleth Map_ was developed following this [Leaflet-tutorial](https://leafletjs.com/examples/choropleth/).
 
 <iframe src="/data/LBTH_wardtheftperson0724.html" width="100%" height="600" style="border:none;"></iframe>
 
 
-> ##### CSS Grid Layout Module
+> ##### Interactivity as a step closer to identify potential relations
 >
-> This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
+> Optimised for intuitive interaction, this dynamic layout enables direct investigation of theft concentrations. By analysing the underlying urban and economic contexts within these areas, you can gain deeper insights crucial for identifying and developing effective strategies to mitigate this type of crime.
 >
-> — _W3C_
+> — _José Luis Hernández_
 
-CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:
+Regarding the identification of hostpost or places with more criminal activity, analysis of the map demonstrates that Spitalfields and Banglatown Ward registered the highest volume of reported crimes, totalling 24. This is succeeded by Bromley North (19 thefts) and Mile End (18). The interactive functionality of the map allows us to precisely identify that Spitalfields and Banglatown contains several of London's most densely populated markets. Moreover, it reveals particular streets and facilities – for instance, Spitalfields Market and Whitechapel underground station – that are known to attract this type of criminal activity. Understanding these unique urban characteristics is key to enhancing the development of bespoke strategies for crime prevention.
 
-```css
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, auto);
-}
-```
 
-#### What an amazing time to be a web developer. Anyway, I hope you enjoy this "feature" that you'll probably never notice or even see. Maybe that's the best part of a good user interface – the hidden stuff that just works.
+Once the places with more crimes were identified, the next step involves a more detailed spatial identification of locations that can be considered as Risk Factors. Additionally, we must analyse these patterns under a crime science approach.  This analysis is presented in the blog section called "Understanding criminal patterns and potential risk factors".
 
-[^1]: The original article cited here is now updated and maintained by the staff over at CSS-Tricks. Bookmark their version if you want to dive in and learn about CSS Grid: [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+`
+#### A granular identification of urban context is vital for informing and enhancing the strategic development of specific actions to mitigate criminal activity.
+
+[^1]: Data was obtained in the _London Datastore_ - crime section: [MPS Recorded Crime: Geographic Breakdown](https://data.london.gov.uk/dataset/recorded_crime_summary/)
