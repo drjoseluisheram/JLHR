@@ -9,11 +9,11 @@ weight: 1
 
 Welcome to the _Revisiting my Doctoral Experience_ blog! I look forward to meeting you. 
 
-Throughout this blog, I will be revisiting and deconstructing the chapters of my Doctoral Thesis, and some entrancies to talk about my experience as PhD student. I hope you can enjoy these post and it will help you to decide if you want to go further with a PhD, and if you are interested in some of the topics that are part of this project, please do not hesitate to contact me.
+Throughout this blog, I will be revisiting and deconstructing the chapters of my Doctoral Thesis. This section also includes some entrances to talk about my experience as PhD student. I hope you can enjoy these post and it will help you to decide if you want to go further with a PhD application. Furthermore, if you are interested in some of the topics that are part of this project, please do not hesitate to contact me.
 
-## Set up RStudio Cloud
+## Download the thesis
 
-Sign up for a free RStudio Cloud account at https://rstudio.cloud/ before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember). I want you to be able to work from your own laptop in this workshop, but Cloud is an important back-up plan should you run into troubles.
+My thesis is called "A Geographic Intelligence Model of Criminal Groups: A study of cargo theft on Mexican Highways". This document reflects the dreams and the hard work of many years, from very funny moments with my colleagues to frustrating nights writing and writing with no hopes of finishing it. However, as any dream, if you are willing to sacrifice and hard work, you can make it. Finishing and submitting my thesis, I can say was one of the happiest and proudest moments of my life. You can download it from [UCL Discovery - Repository](https://discovery.ucl.ac.uk/id/eprint/10188188/).
 
 ## Set up GitHub
 
