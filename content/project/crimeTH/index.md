@@ -4,6 +4,7 @@ categories:
 - Datavis
 - Leaflet
 - Maps
+- Crime Analysis
 date: "2025-06-23"
 draft: false
 excerpt: An interactive visualisation about theft against the persons in London Borough of Tower Hamlets in July 2024.
@@ -67,7 +68,6 @@ Regarding the identification of hostpost or places with more criminal activity, 
 
 Once the places with more crimes were identified, the next step involves a more detailed spatial identification of locations that can be considered as Risk Factors. Additionally, we must analyse these patterns under a crime science approach.  This analysis is presented in the blog section called "Understanding criminal patterns and potential risk factors".
 
-`
 #### A granular identification of urban context is vital for informing and enhancing the strategic development of specific actions to mitigate criminal activity.
 
 [^1]: Data was obtained in the _London Datastore_ - crime section: [MPS Recorded Crime: Geographic Breakdown](https://data.london.gov.uk/dataset/recorded_crime_summary/)
