@@ -1,13 +1,15 @@
 ---
-date: "2021-01-01"
+date: "2025-06-25"
 draft: false
 excerpt: How to prepare ahead of time.
 subtitle: ""
-title: Prework
+title: Welcome
 weight: 1
 ---
 
-Welcome to the [Introducing Yourself Online](/) workshop! We look forward to meeting you. Before attending the workshop, please complete the following prework.
+Welcome to the _Revisiting my Doctoral Experience_ blog! I look forward to meeting you. 
+
+Throughout this blog, I will be revisiting and deconstructing the chapters of my Doctoral Thesis, and some entrancies to talk about my experience as PhD student. I hope you can enjoy these post and it will help you to decide if you want to go further with a PhD, and if you are interested in some of the topics that are part of this project, please do not hesitate to contact me.
 
 ## Set up RStudio Cloud
 
