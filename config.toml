@@ -162,7 +162,7 @@ enableEmoji = true
   [[menu.header]]
     name = "Thesis"
     title = "Revisiting my Doctoral Experience"
-    url = "/phdthesis/"
+    url = "/thesis/"
     weight = 5
   #[[menu.header]]
    # name = "Elements"
