@@ -18,9 +18,7 @@ show_post_thumbnail: true
 sidebar:
   author: Dr. José Luis Hernández-Ramírez
   categories_link: true
-  description: "Sometimes you want a souped-up series- a bundle of related pages meant to be read in sequence.
-  \nThis section is like a blog series to talk about my Doctoral experience and, 
-  \nparticularly focusing in share my thesis."
+  description: "Sometimes you want a souped-up series- a bundle of related pages meant to be read in sequence. This section is like a blog series to talk about my Doctoral experience and, particularly focusing in share my thesis."
   show_author_byline: true
   show_post_date: true
   show_sidebar_adunit: true
@@ -29,9 +27,7 @@ sidebar:
   text_link_url: /index.xml
   text_series_label: Outline
   title: Revisiting my Doctoral Experience
-description: "Sometimes you want a souped-up series- a bundle of related pages meant to be read in sequence.
-    \nThis section is like a blog series to talk about my Doctoral experience and, 
-    \nparticularly focusing in share my thesis.\n"
+description: "Sometimes you want a souped-up series- a bundle of related pages meant to be read in sequence. This section is like a blog series to talk about my Doctoral experience and, particularly focusing in share my thesis."
 layout: list-sidebar
 show_author_byline: false
 show_post_date: false
