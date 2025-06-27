@@ -6,7 +6,7 @@ cascade:
     author: Dr. José Luis Hernández-Ramírez
     description: "Sometimes you want a souped-up series- a bundle of related pages
       \nmeant to be read in sequence. This section is like a blog series, \nto talk
-      about my Doctoral experience and, particularly focusing in share my thesis.\n"
+      about my Doctoral experience and, particularly focusing in share my thesis."
     show_author_byline: true
     show_post_date: true
     show_sidebar_adunit: true
@@ -15,8 +15,9 @@ cascade:
     text_link_url: ""
     text_series_label: Outline
     title: Revisiting my Doctoral Experience
-description: "Sometimes you want a souped-up series- a bundle of related pages \nmeant
-  to be read in sequence. This section is like a blog series, \nminus the blog.\n"
+description: "Sometimes you want a souped-up series- a bundle of related pages
+      \nmeant to be read in sequence. This section is like a blog series, \nto talk
+      about my Doctoral experience and, particularly focusing in share my thesis.\n"
 layout: list-sidebar
 show_author_byline: false
 show_post_date: false
