@@ -1,7 +1,7 @@
 ---
 author: Dr. José Luis Hernández-Ramírez
 cascade:
-  author: The R Markdown Team @RStudio
+  author: Dr. José Luis Hernández-Ramírez
   show_author_byline: true
   show_comments: true
   show_post_date: true

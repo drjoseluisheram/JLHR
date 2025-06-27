@@ -1,7 +1,7 @@
 ---
 date: "2025-06-25"
 draft: false
-excerpt: How to prepare ahead of time.
+excerpt: A brief introduction to this _inglorious_ blog.
 subtitle: ""
 title: Welcome
 weight: 1
@@ -13,61 +13,10 @@ Throughout this blog, I will be revisiting and deconstructing the chapters of my
 
 ## Download the thesis
 
-My thesis is called "A Geographic Intelligence Model of Criminal Groups: A study of cargo theft on Mexican Highways". This document reflects the dreams and the hard work of many years, from very funny moments with my colleagues to frustrating nights writing and writing with no hopes of finishing it. However, as any dream, if you are willing to sacrifice and hard work, you can make it. Finishing and submitting my thesis, I can say was one of the happiest and proudest moments of my life. You can download it from [UCL Discovery - Repository](https://discovery.ucl.ac.uk/id/eprint/10188188/).
+My thesis is called "A Geographic Intelligence Model of Criminal Groups: A study of cargo theft on Mexican Highways". This document reflects the dreams and the hard work of many years, from very funny moments with my colleagues to frustrating nights writing and writing with no hopes of finishing it. However, as any dream, if you are willing to make some sacrifices and especially, being very disciplined, constant and hard worker, you can make it. I can tell you, finishing and submitting my thesis was one of the happiest and proudest moments of my life. 
 
-## Set up GitHub
+Let's start this journey, you can download my thesis from [UCL Discovery - Repository](https://discovery.ucl.ac.uk/id/eprint/10188188/).
 
-We will be using GitHub in this workshop for version control and publishing. Sign up for a free GitHub.com account at <https://github.com/join> if you don't already have one. Also:
 
-+ Complete these [installation instructions](https://happygitwithr.com/install-intro.html).
-    
-+ Test your connection between GitHub and RStudio following [these steps](https://happygitwithr.com/connect-intro.html). 
-    
-+ **NOTE:** We *strongly recommend* that if you are not already a fluent GitHub user you choose [HTTPS over SSH](https://happygitwithr.com/credential-caching.html).
-
-## Brush up on markdown
-
-Please complete this [10-minute interactive tutorial on Markdown](https://commonmark.org/help/tutorial/). 
-
-## Installations
-
-Please bring a laptop that has the following installed:
-
-+ A recent version of R (>=3.6.0), which is available for free at https://cloud.r-project.org/
-    
-+ A recent version of RStudio Desktop (>=1.4), available for free ([RStudio Desktop Open Source License](https://www.rstudio.com/products/rstudio/download/#download)). Read up on the latest version [here](https://blog.rstudio.com/2021/01/19/announcing-rstudio-1-4/).
-    
-+ The R packages we will use, which you can install by connecting to the internet, opening RStudio, and running at the command line:
-
-    ```r
-    > install.packages(c("usethis", "remotes", "distill", 
-                       "postcards", "blogdown"))
-    ```
-    
-    You'll also need to install the development version of the `rmarkdown` package:
-    
-    ```r
-    > remotes::install_github("rmarkdown")
-    ```
-
-## Install Hugo
-
-To use blogdown, please install Hugo:
-```r
-> blogdown::install_hugo()
-```
-
-And ensure your current version is at least as high as:
-```r
-> hugo_version()
-[1] ‘0.79.0’
-```
-
-## Check pandoc
-
-The RStudio IDE bundles an updated version of pandoc- if you did install v1.4 of the IDE, you should be all set!
-
-```r
-> rmarkdown::pandoc_version()
-[1] ‘2.11.3’
-```
+## Abstract
+Organised criminal groups (OCGs) are responsible for a large amount of criminal activity that is experienced in countries across the world. Although many studies have examined the structure of OCGs and the influence they have, very few studies have examined their geographic activity. In particular, geographic activity that can provide intelligence that can be used to counter the criminal activities of these groups. Using the example of cargo theft on highways in Mexico, this research aims to develop a geographic intelligence model (GIM) of criminal group activity. Between 2015 to 2020, cargo theft on Mexican highways increased by 40% and on average accounted for almost $USD 4 million in losses per day. Most of these crimes were associated with OCGs. To better understand the activities of these criminal groups a hybrid analytical quantitative and qualitative model of geographic intelligence is proposed. The first part of this model involves a spatial analysis of the criminal activity to identify the extent to which this activity is spatially and temporally concentrated. In this case, the spatial and temporal concentration of cargo theft across highway segments in Mexico. The second part of the model involves using crime script analysis to examine the sequencing of the activities associated with the criminal act to identify patterns of offender decision-making, the roles that ‘actors’ (e.g., members of the criminal group, non-members and businesses) perform, and the associations between those involved in the criminal activities. The information gathered through this second process is used for presenting a crime commission process (CCP) of the criminal activity, from its planning to its execution. The information gathered in the CPP is then examined to extract geographic locations of interest that relate to the activities of the actors involved. The third part involves the creation of a geographic profile that considers the environmental characteristics of where offences take place and the geographic activities of the actors involved in the CCP to determine locations where a criminal group locates their strategic places of action. In this manner, the GIM is an intelligence product for better understanding the criminal activities of criminal groups, with specific attention to where their activities are located. With this better understanding of criminal groups, interventions to counter their activities can be better targeted and tailored.
